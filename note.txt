@@ -1,0 +1,11 @@
+gonna create a lib and update and learn abt stuff, abt this approach 
+also gthub actions 
+
+mainly have the following
+
+- interfaces 
+- cloudinary upload methods 
+- error handlers 
+- api gateway middleware
+- logger methods 
+- helper methods 
