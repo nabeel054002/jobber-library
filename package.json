@@ -18,11 +18,11 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "",
+  "name": "@nabeel054002/jobber-library",
   "author": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/nabeel054002/jobber-library.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
