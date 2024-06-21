@@ -22,8 +22,4 @@ export function verifyGatewayRequest(req: Request, _res: Response, next: NextFun
     throw new NotAuthorizedError('Invalid request', 'verifyGatewayRequest() method: Request not coming from api gateway');
   }
   next();
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e89de26 (init commit)

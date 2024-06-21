@@ -45,8 +45,4 @@ export function videoUpload(
       }
     );
   });
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e89de26 (init commit)
