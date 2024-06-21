@@ -86,4 +86,8 @@ export interface ErrnoException extends Error {
   path?: string;
   syscall?: string;
   stack?: string;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e89de26 (init commit)
