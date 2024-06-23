@@ -1,3 +1,22 @@
+export const replaceSpacesWithDash = (title: string): string => {
+  const lowercaseTitle: string = lowerCase(`${title}`);
+  return lowercaseTitle.replace(/\/| /g, '-'); // replace / and space with -
+};
+
+export const replaceDashWithSpaces = (title: string): string => {
+  const lowercaseTitle: string = lowerCase(`${title}`);
+  return lowercaseTitle.replace(/-|\/| /g, ' '); // replace - / and space with -
+};
+
+export const replaceAmpersandWithSpace = (title: string): string => {
+  return title.replace(/&/g, '');
+};
+
+export const replaceAmpersandAndDashWithSpace = (title: string): string => {
+  const titleWithoutDash = replaceDashWithSpaces(title);
+  return titleWithoutDash.replace(/&| /g, ' ');
+};
+
 export function firstLetterUppercase(str: string): string {
   const valueString = str.toLowerCase();
   return valueString
