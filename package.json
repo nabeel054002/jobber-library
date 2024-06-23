@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "index.js",
   "description": "Helpers library for E Comm app",
@@ -27,6 +27,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "build",
+    "src"
+  ],
   "exports": {
     ".": {
       "import": "./src/index.js",
