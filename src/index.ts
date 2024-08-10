@@ -11,7 +11,7 @@ export {
   IReduxAuthPayload,
   IReduxAddAuthUser,
   IReduxLogout,
-  IAuthResponse,
+  // IAuthResponse,
   IAuthUser,
 } from './auth.interface';
 export { IBuyerDocument, IReduxBuyer } from './buyer.interface';
