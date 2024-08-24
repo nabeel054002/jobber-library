@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "main": "index.js",
   "description": "Helpers library for E Comm app",
@@ -27,20 +27,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "files": [
-    "build",
-    "src"
-  ],
-  "exports": {
-    ".": {
-      "import": "./src/index.d.ts",
-      "require": "./src/index.d.ts"
-    },
-    "./icons": {
-      "import": "./esm/icons/index.js",
-      "require": "./cjs/icons/index.js"
-    }
-  },
+
   "types": "./src/index.d.ts",
   "dependencies": {
     "@elastic/elasticsearch": "^8.14.0",
